@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="alert-primary jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Crystal Collector!</h1>
+        </div>
+    </div>
+
+    <div id="content-container">
+        <p>You will be given a random number at the start of the game.<br><br>
+            There are four crystals below.By clicking on a crystal you will add a specific amount of points to your
+            total score. <br><br>
+            You win the game by matching your total score to the random number, you lose the game if your total acore
+            goes above the random number. <br><br>
+            The value of each crystal is hidden from until you click on it/ <br><br>
+            Each time when the game starts, the game will change the values of each crystal.
+        </p>
+
+    </div>
+
+    <div id="targetNumber">
+        <p>0</p>
+    </div>
+
+    <div class="results">
+        <div id="wins">
+            <p>Wins: 0</p>
+        </div>
+        <div id="losses">
+            <p>Losses: 0</p>
+
+        </div>
+    </div>
+
+    <div class="crystal-container">
+        <img id="red" src="assets/images/red.jpg">
+        <img id="blue" src="assets/images/Blue.jpg">
+        <img id="yellow" src="assets/images/yellow.jpg">
+        <img id="green" src="assets/images/green.jpg">
+
+    </div>
+
+    <div class="score-heading">
+        <P>Your total score is:</P>
+    </div>
+
+    <div class="total-score">
+        <p>0</p>
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+    </script>
+
+    <script src="assets/game.js">
+    </script>
+
+
+</body>
+
+</html>

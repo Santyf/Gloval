@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+}
+
+#content-container {
+    background-color: blueviolet;
+    width: 50%;
+}
+
+#totalNumber {
+    background: cadetblue;
+    width: 15%;
+    height: 150px;
+}
+
+.results {
+    background-color: aqua;
+    width: 5%;
+}
+
+#red {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+ #blue {
+     width: 200px;
+     height: 200px;
+     background-color: white;
+     cursor: pointer;
+ }
+
+ #yellow {
+     width: 200px;
+     height: 200px;
+     cursor: pointer;
+ }
+
+ #green {
+     width: 200px;
+     height: 200px;
+     cursor: pointer;
+ }

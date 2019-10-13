@@ -3,7 +3,7 @@ h1 {
 }
 
 #content-container {
-    background-color: blueviolet;
+    background-color: skyblue;
     width: 50%;
 }
 
@@ -14,8 +14,12 @@ h1 {
 }
 
 .results {
-    background-color: aqua;
+    background-color: lightpink;
     width: 5%;
+    float: left;
+    padding-top: 10px;
+    height: 80px;
+    font-weight: bold;
 }
 
 #red {
@@ -41,3 +45,48 @@ h1 {
      height: 200px;
      cursor: pointer;
  }
+
+ p {
+     font-weight: bold;
+     color: black;
+     font-family: cursive;
+ }
+
+ #targetNumber {
+     background-color: burlywood;
+     width: 20%;
+     height: 80px;
+     font-weight: bold;
+     float: left;
+     margin-right: 30px;
+ }
+
+ .crystal-container {
+     opacity: 0.3;
+     margin-top: 120px;
+     
+ }
+
+ .crystal-container:hover {
+     opacity: 1;
+ }
+
+ .score-heading {
+     background-color:lightgreen;
+     width: 15%;
+     margin-top: 40px;
+ }
+
+ .total-score {
+     background-color: lightgreen;
+     width: 15%;
+     height: 80px;
+     font-weight: bold;
+     margin-bottom: 20px;
+ }
+
+ body {
+     background-image: url(https://images-na.ssl-images-amazon.com/images/I/913LOf4vO3L.png);
+ }
+
+ 

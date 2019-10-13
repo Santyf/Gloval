@@ -18,7 +18,7 @@ console.log(green);
 
 
 function reset() {
-    var totalScore = 0;
+     totalScore = 0;
     $(".total-score").text(totalScore);
 
     targetNumber = Math.floor(Math.random() * 101) + 19;

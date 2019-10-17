@@ -1,2 +1,3 @@
 # Gloval
-jquery hw
+Play the game here!
+https://santyf.github.io/Gloval/

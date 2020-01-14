@@ -1,3 +1,5 @@
+![crystal collector](https://user-images.githubusercontent.com/53352836/72308880-60a38e00-364b-11ea-98ee-045ea772c8de.PNG)
+
 # Crystal Collector Game
 
 A fun interactive game.
